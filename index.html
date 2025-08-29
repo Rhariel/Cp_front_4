@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoTrend</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -13,20 +13,20 @@
 
 <body>
   <!-- Menu -->
-   <header>
+  <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <!-- Imagem Logo -->
-        <img class="navbar-brand" src="assests/icons/Logo Eco 3.svg"></img>
+        <img class="navbar-brand" src="assets/icons/Logo Eco 3.svg" alt="Logo EcoTrend"/>
         <!-- Menu Responsivo -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Páginas Menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="assets/pages/produtos_beleza.html">Produtos</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="pages/produtos.html">Produtos</a> </li>
             <li class="nav-item"> <a class="nav-link" href="pages/tecnologia.html">Tecnologia</a> </li>
             <li class="nav-item"> <a class="nav-link" href="pages/sobre.html">Sobre</a> </li>
           </ul>
@@ -39,44 +39,39 @@
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M29.2275 30.231L19.8345 20.838C19.0845 21.477 18.222 21.9715 17.247 22.3215C16.272 22.6715 15.292 22.8465 14.307 22.8465C11.905 22.8465 9.87204 22.015 8.20804 20.352C6.54404 18.689 5.71204 16.6565 5.71204 14.2545C5.71204 11.8525 6.54304 9.819 8.20504 8.154C9.86704 6.489 11.899 5.6555 14.301 5.6535C16.703 5.6515 18.737 6.4835 20.403 8.1495C22.069 9.8155 22.902 11.849 22.902 14.25C22.902 15.292 22.7175 16.3005 22.3485 17.2755C21.9795 18.2505 21.4945 19.0845 20.8935 19.7775L30.2865 29.169L29.2275 30.231ZM14.3085 21.345C16.2985 21.345 17.9785 20.66 19.3485 19.29C20.7185 17.92 21.4035 16.2395 21.4035 14.2485C21.4035 12.2575 20.7185 10.5775 19.3485 9.2085C17.9785 7.8395 16.2985 7.1545 14.3085 7.1535C12.3185 7.1525 10.638 7.8375 9.26704 9.2085C7.89604 10.5795 7.21104 12.2595 7.21204 14.2485C7.21304 16.2375 7.89804 17.9175 9.26704 19.2885C10.636 20.6595 12.316 21.3445 14.307 21.3435" fill="#101010"/>
           </svg>
-
           <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.4999 13.4167C18.3534 13.4167 20.6666 11.1035 20.6666 8.25C20.6666 5.39653 18.3534 3.08334 15.4999 3.08334C12.6464 3.08334 10.3333 5.39653 10.3333 8.25C10.3333 11.1035 12.6464 13.4167 15.4999 13.4167Z" stroke="#101010" stroke-width="1.5"/>
             <path d="M25.8333 23.1042C25.8333 26.314 25.8333 28.9167 15.5 28.9167C5.16663 28.9167 5.16663 26.314 5.16663 23.1042C5.16663 19.8944 9.79338 17.2917 15.5 17.2917C21.2065 17.2917 25.8333 19.8944 25.8333 23.1042Z" stroke="#101010" stroke-width="1.5"/>
           </svg>
-          <!-- <img src="assests/icons/User-icon.svg" alt="">
-          <img src="assests/icons/serch-icon.svg" alt="">
-          <img src="assests/icons/Cart-icon.svg" alt=""> -->
         </div>
       </div>
     </nav>
   </header>
   <main>
-    <!-- CARROSEL BG PRINCIPAL -->
+    <!-- CARROSSEL BG PRINCIPAL -->
     <section class="carrosel">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active" id="one">
-            <img src="assests/icons/Logo Eco 2.png" alt="Logo EcoTrend">
+            <img src="assets/icons/Logo Eco 2.png" alt="Logo EcoTrend">
             <h2>Venha Mudar o Mundo Conosco</h2>
             <p>Faça parte do movimento da EcoTrend, conheça nosso propósito e nossa tecnologia</p>
             <a href="pages/sobre.html">Clique Para Conhecer</a>
           </div>
-
           <div class="carousel-item" id="two">
-              <img src="assests/icons/Logo Eco 2.png" alt="Logo EcoTrend">
-              <h2><strong>10% OFF</strong> em Produtos de Beleza</h2>
-              <p>Clique no botão a baixo e veja nossa principais opções</p>
-              <a href="pages/produtos.html">Veja os Produtos</a>
+            <img src="assets/icons/Logo Eco 2.png" alt="Logo EcoTrend">
+            <h2><strong>10% OFF</strong> em Produtos de Beleza</h2>
+            <p>Clique no botão abaixo e veja nossas principais opções</p>
+            <a href="pages/produtos.html">Veja os Produtos</a>
           </div>
-
-          </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Próximo</span>
         </button>
       </div>
     </section>
@@ -84,7 +79,7 @@
     <!-- CATEGORIAS / PRINCIPAIS PRODUTOS -->
     <section class="principais">
       <div class="container">
-        <h2>Nosso Principais Linhas de <br><strong>Produtos Sustentáveis</strong></h2>
+        <h2>Nossas Principais Linhas de <br><strong>Produtos Sustentáveis</strong></h2>
         <div class="imagens">
           <div class="col" id="img-1">
             <h2>Roupas e acessórios <strong>sustentáveis</strong></h2>
@@ -110,8 +105,8 @@
     <section class="produtos">
       <h2>Principais Produtos</h2>
       <div class="line">
-        <div class="card" >
-          <img src="assests/img/sandalia (2).png" class="card-img-top" alt="...">
+        <div class="card">
+          <img src="assets/img/sandalia (2).png" class="card-img-top" alt="Sandália Maibulun Ecotrend Camurça - Cor Areia">
           <div class="card-body">
             <h4>100% Sustentável</h4>
             <h5 class="card-title">Sandália Maibulun Ecotrend Camurça - Cor Areia</h5>
@@ -119,9 +114,8 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-
         <div class="card">
-          <img src="assests/img/colher_bambu-removebg-preview.png" class="card-img-top" alt="...">
+          <img src="assets/img/colher_bambu-removebg-preview.png" class="card-img-top" alt="Colher De Bambu Ecológica E Sustentável">
           <div class="card-body">
             <h4>100% Sustentável</h4>
             <h5 class="card-title">Colher De Bambu Ecológica E Sustentável</h5>
@@ -129,9 +123,8 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-
         <div class="card">
-          <img src="assests/img/cesto (2).png" class="card-img-top" alt="...">
+          <img src="assets/img/cesto (2).png" class="card-img-top" alt="Cesto Fibra Natural e Branco Listrado">
           <div class="card-body">
             <h4>100% Sustentável</h4>
             <h5 class="card-title">Cesto Fibra Natural e Branco Listrado</h5>
@@ -139,9 +132,8 @@
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
-
         <div class="card">
-          <img src="assests/img/creme facial (2).png" class="card-img-top" alt="...">
+          <img src="assets/img/creme facial (2).png" class="card-img-top" alt="Creme Facial Base Neutro Vegano">
           <div class="card-body">
             <h4>100% Sustentável</h4>
             <h5 class="card-title">Creme Facial Base Neutro Vegano</h5>
@@ -152,29 +144,29 @@
       </div>
     </section>
 
-    <!-- SECÇÃO PROPÓSITOS -->
+    <!-- SEÇÃO PROPÓSITOS -->
     <section class="proposito">
       <div class="col" id="prop-1">
-          <img src="assests/icons/Logo Eco 2.png" alt="">
-          <h2>A cada <b>10 Reais</b> Gastos na EcoTrend 1 Real é dedicado a obras <b>sustentáveis ao meio ambiente</b></h2>
-          <button><a href="pages/produtos.html">Clique e Veja Mais</a></button>
-        </div>
+        <img src="assets/icons/Logo Eco 2.png" alt="">
+        <h2>A cada <b>10 Reais</b> gastos na EcoTrend, 1 Real é dedicado a obras <b>sustentáveis ao meio ambiente</b></h2>
+        <button><a href="pages/produtos.html">Clique e Veja Mais</a></button>
+      </div>
       <div class="col" id="prop-2">
-        <img src="assests/icons/Logo Eco 2.png" alt="">
+        <img src="assets/icons/Logo Eco 2.png" alt="">
         <h2>Na EcoTrend os produtos são produzidos <b>100% nacionalmente</b></h2>
         <button><a href="pages/sobre.html">Clique e Veja Mais</a></button>
       </div>
     </section>
   </main>
   <!-- FOOTER -->
-   <footer>
+  <footer>
     <div class="sociais">
       <h2>Siga Nossas Redes</h2>
       <div class="icones f">
-        <img src="assests/icons/ic_baseline-facebook.png" alt="">
-        <img src="assests/icons/ic_baseline-tiktok.png" alt="">
-        <img src="assests/icons/jam_instagram.png" alt="">
-        <img src="assests/icons/Vector.png" alt="">
+        <img src="assets/icons/ic_baseline-facebook.png" alt="">
+        <img src="assets/icons/ic_baseline-tiktok.png" alt="">
+        <img src="assets/icons/jam_instagram.png" alt="">
+        <img src="assets/icons/Vector.png" alt="">
       </div>
     </div>
     <div class="menu-f">
@@ -190,10 +182,9 @@
       <a href="pages/produtos.html">Produtos Pessoais</a>
       <a href="pages/produtos.html">Roupas e Acessórios</a>
       <a href="pages/tecnologia.html">Nossa Tecnologia</a>
-   </footer>
-  
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
 </body>
 </html>
