@@ -6,7 +6,7 @@
 body{
     background-color: #F0FFFF!important;
     font-family: 'Montserrat';
-    /* margin: 0 15%; */
+   
 }
 header{
     margin: 0 15%
@@ -90,15 +90,15 @@ header{
   padding: 10px;
 }
 
-/* Subtítulo do produto (ex: 100% Sustentável) */
+
 .card h4 {
   font-size: 14px;
-  color: #00b050; /* verde suave */
+  color: #00b050; 
   font-weight: 600;
   margin-bottom: 8px;
 }
 
-/* Nome do produto */
+
 .card-title {
   font-size: 16px;
   font-weight: 500;
@@ -106,7 +106,7 @@ header{
   margin-bottom: 6px;
 }
 
-/* Preço */
+
 .card-text {
   font-size: 15px;
   font-weight: 600;
@@ -129,7 +129,7 @@ header{
   background-color: #009640 !important;
 }
 
-/* Ajuste para manter altura uniforme */
+
 .card-body {
   display: flex;
   flex-direction: column;
