@@ -52,6 +52,25 @@ header{
     grid-template-columns: repeat(4, 1fr);
 }
 
+/*Submenu Dropdown*/
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.dropdown-item:hover {
+  background-color: #d3d3d3;
+}
+
 .container-fluid > img{
     width: 10%;
 }
@@ -364,7 +383,7 @@ footer .categorias{
 
     .principais{
         margin: 6% 4%;
-        height: 130vh;
+        height: 150vh;
     }
 
     .produtos {
