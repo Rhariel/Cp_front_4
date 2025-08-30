@@ -67,10 +67,25 @@ header{
 }
 
 /* --- CARDS PRODUTOS --- */
+.produtos{
+  width: 75%;
+}
+
+.produtos h2{
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.produtos h3{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
 .card {
   border: none;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #F0FFFF;
   box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   height: 100%;
@@ -92,12 +107,15 @@ header{
 
 
 .card h4 {
-  font-size: 14px;
+  font-size: 1em;
   color: #00b050; 
   font-weight: 600;
   margin-bottom: 8px;
 }
 
+.card h5{
+  font-size: 1em;
+}
 
 .card-title {
   font-size: 16px;
@@ -112,6 +130,12 @@ header{
   font-weight: 600;
   color: #101010;
   margin-bottom: 12px;
+}
+
+.card-body {
+  background-color: #eeeeee6f;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
 
 /* Botão */
@@ -129,13 +153,7 @@ header{
   background-color: #009640 !important;
 }
 
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: center;
-}
+/* FOOTER */
 footer {
   background-color: #ECEEEE;
   padding: 3rem 10%;
