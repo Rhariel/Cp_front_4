@@ -108,7 +108,7 @@ header{
 }
 
 #one{
-    background-image: url(assets/img/index_imagens/bg_home_eco.png);
+    background-image: url(../img/index_imagens/bg_home_eco.png);
 }
 
 #one a{
@@ -128,7 +128,7 @@ header{
 }
 
 #two{
-    background-image: url(assets/img/index_imagens/bg_home_2.png);
+    background-image: url(../img/index_imagens/bg_home_2.png);
 }
 
 /* ---SECÇÃO CATEGORIAS--- */
@@ -185,20 +185,20 @@ header{
 }
 
 #img-1{
-    background-image: url(assets/img/index_imagens/frame11.png);
+    background-image: url(../img/index_imagens/frame11.png);
 }
 
 #img-2{
-    background-image: url(assets/img/index_imagens/frame10.png);
+    background-image: url(../img/index_imagens/frame10.png);
     color: aliceblue; 
 }
 
 #img-3{
-    background-image: url(assets/img/index_imagens/frame9.png); 
+    background-image: url(../img/index_imagens/frame9.png); 
 }
 
 #img-4{
-    background-image: url(assets/img/index_imagens/frame7.png);
+    background-image: url(../img/index_imagens/frame7.png);
     color: aliceblue; 
 }
 
@@ -343,11 +343,11 @@ footer .categorias{
 }
 
 #prop-1{
-    background-image: url('assets/img/index_imagens/obras.png');
+    background-image: url('../img/index_imagens/obras.png');
 }
 
 #prop-2{
-    background-image: url('assets/img/index_imagens/produzidos.png');
+    background-image: url('../img/index_imagens/produzidos.png');
 }
 
 /* AJUSTES RESPONSIVO */
