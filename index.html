@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <!-- Imagem Logo -->
-        <img class="navbar-brand" src="assets/icons/logo_eco_3.svg" alt="Logo EcoTrend"/>
+        <img class="navbar-brand" src="/assets/icons/logo_eco_3.svg" alt="Logo EcoTrend"/>
         <!-- Menu Responsivo -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,20 @@
         <!-- Páginas Menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="assets/pages/produtos.html">Produtos</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="assets/pages/tecnologia.html">Tecnologia</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="assets/pages/sobre.html">Sobre</a> </li>
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/index.html">Home</a> </li>
+            <!-- Submenu Produtos -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Produtos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/assets/pages/produtos_para_casa.html">Produtos para Casa</a></li>
+                <li><a class="dropdown-item" href="/assets/pages/produtos_beleza.html">Produtos Beleza</a></li>
+                <li><a class="dropdown-item" href="/assets/pages/produtos_roupa.html">Roupas e Acessórios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="/assets/pages/tecnologia.html">Tecnologia</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/assets/pages/sobre.html">Sobre</a> </li>
           </ul>
         </div>
         <!-- Funções Menu -->
@@ -47,6 +57,7 @@
       </div>
     </nav>
   </header>
+
   <main>
     <!-- CARROSSEL BG PRINCIPAL -->
     <section class="carrosel">
@@ -83,7 +94,7 @@
         <div class="imagens">
           <div class="col" id="img-1">
             <h2>Roupas e acessórios <strong>sustentáveis</strong></h2>
-            <button><a href="assets/pages/produtos.html">Clique e Veja Mais</a></button>
+            <button><a href="assets/pages/produtos_roupa.html">Clique e Veja Mais</a></button>
           </div>
           <div class="col" id="img-2">
             <h2>Conheça nossa <strong>Tecnologia verde</strong></h2>
@@ -95,7 +106,7 @@
           </div>
           <div class="col" id="img-4">
             <h2>Itens <strong>Sustentáveis</strong> Para Casa</h2>
-            <button><a href="assets/pages/produtos.html">Clique e Veja Mais</a></button>
+            <button><a href="assets/pages/produtos_para_casa.html">Clique e Veja Mais</a></button>
           </div>
         </div>
       </div>
@@ -149,7 +160,7 @@
       <div class="col" id="prop-1">
         <img src="assets/icons/logo_eco_2.png" alt="">
         <h2>A cada <b>10 Reais</b> gastos na EcoTrend, 1 Real é dedicado a obras <b>sustentáveis ao meio ambiente</b></h2>
-        <button><a href="assets/pages/produtos.html">Clique e Veja Mais</a></button>
+        <button><a href="assets/pages/sobre.html">Clique e Veja Mais</a></button>
       </div>
       <div class="col" id="prop-2">
         <img src="assets/icons/logo_eco_2.png" alt="">
@@ -172,16 +183,16 @@
     <div class="menu-f">
       <h2>Menu</h2>
       <a href="#">Home</a>
-      <a href="assets/pages/produtos.html">Produtos</a>
+      <a href="assets/pages/produtos_beleza.html">Produtos</a>
       <a href="assets/pages/tecnologia.html">Nossa Tecnologia</a>
       <a href="assets/pages/sobre.html">Sobre</a>
     </div>
     <div class="categorias">
       <h2>Categorias</h2>
       <a href="#">Produtos para casa</a>
-      <a href="assets/pages/produtos.html">Produtos Pessoais</a>
-      <a href="assets/pages/produtos.html">Roupas e Acessórios</a>
-      <a href="assets/pages/produtos.html">Nossa Tecnologia</a>
+      <a href="assets/pages/produtos_beleza.html">Produtos Pessoais</a>
+      <a href="assets/pages/produtos_roupa.html">Roupas e Acessórios</a>
+      <a href="assets/pages/sobre.html">Nossa Tecnologia</a>
     </div>
   </footer>
 
