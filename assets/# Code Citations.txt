@@ -1,0 +1,59 @@
+# Code Citations
+
+## License: desconhecido
+https://github.com/kneath/kneath.github.com/tree/9587897a48d7fd141603f175523877696f8a0af9/_layouts/phasetwo/default.html
+
+```
+"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://
+```
+
+
+## License: MIT
+https://github.com/evijit/evijit.github.io/tree/bf01508315571d01414d36f493466110262b9259/_site/blog/page/3/index.html
+
+```
+" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href=
+```
+
+
+## License: desconhecido
+https://github.com/ViniciusAlexsander/meu-site/tree/6715a48834e381659d422fa8f6398cee6a0b2174/projetos/weightConverter.html
+
+```
+DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title
+```
+
+
+## License: desconhecido
+https://github.com/Arthurz2/Proejtorockeatseat01/tree/983d07998b61f4dae5813329d1cf449fa4966fa8/index.html
+
+```
+html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.
+```
+
+
+## License: desconhecido
+https://github.com/NicolasMB3/Cerebro/tree/97a8ea0bd49152f886513a22a8af51832fd695a0/details_b.html
+
+```
+"https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+
+```
+

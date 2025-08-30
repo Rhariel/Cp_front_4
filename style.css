@@ -89,7 +89,7 @@ header{
 }
 
 #one{
-    background-image: url(Assests/img/bg-home-eco.png);
+    background-image: url(assets/img/index_imagens/bg_home_eco.png);
 }
 
 #one a{
@@ -109,7 +109,7 @@ header{
 }
 
 #two{
-    background-image: url(Assests/img/Bg-home-2.png);
+    background-image: url(assets/img/index_imagens/bg_home_2.png);
 }
 
 /* ---SECÇÃO CATEGORIAS--- */
@@ -166,20 +166,20 @@ header{
 }
 
 #img-1{
-    background-image: url(Assests/img/Frame\ 11.png);
+    background-image: url(assets/img/index_imagens/frame11.png);
 }
 
 #img-2{
-    background-image: url(Assests/img/Frame\ 10.png);
+    background-image: url(assets/img/index_imagens/frame10.png);
     color: aliceblue; 
 }
 
 #img-3{
-    background-image: url(Assests/img/Frame\ 9.png); 
+    background-image: url(assets/img/index_imagens/frame9.png); 
 }
 
 #img-4{
-    background-image: url(Assests/img/Frame\ 7.png);
+    background-image: url(assets/img/index_imagens/frame7.png);
     color: aliceblue; 
 }
 
@@ -324,11 +324,11 @@ footer .categorias{
 }
 
 #prop-1{
-    background-image: url('Assests/img/obras.png');
+    background-image: url('assets/img/index_imagens/obras.png');
 }
 
 #prop-2{
-    background-image: url('Assests/img/produzidos.png');
+    background-image: url('assets/img/index_imagens/produzidos.png');
 }
 
 /* AJUSTES RESPONSIVO */
