@@ -154,55 +154,6 @@ header{
 }
 
 /* FOOTER */
-/* footer {
-  background-color: #ECEEEE;
-  padding: 3rem 10%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 2rem;
-}
-
-footer h5 {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  color: #1c2b2d;
-  font-weight: 600;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer ul li {
-  margin-bottom: 0.5rem;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: #000;
-  transition: color 0.3s;
-  font-size: 0.95rem;
-}
-
-footer ul li a:hover {
-  color: #16423C;
-}
-
-footer .social-icons {
-  display: flex;
-  gap: 1rem;
-  font-size: 1.2rem;
-}
-
-footer .social-icons a {
-  color: #000;
-  transition: color 0.3s;
-}
-
-footer .social-icons a:hover {
-  color: #16423C;
-} */
 
 footer{
     background-color: #e9e9e9e0;
@@ -241,4 +192,94 @@ footer .categorias{
     width: 25%;
     display: flex;
     flex-direction: column;
+}
+
+/* PAGINA SOBRE */
+.sobre{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 20%;
+}
+
+.sobre h2, h3{
+  text-align: center;
+}
+
+.sobre h2{
+  font-size: 2.4em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.sobre h3{
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.compromisso{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.compromisso p{
+  font-size: 0.9em;
+}
+
+.gasto, .prod{
+  padding: 5%;
+  border: solid #9a9a9a 1px;
+  border-radius: 10px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 990px){
+  .navbar-brand{
+      display: none;
+  }
+
+  .sobre{
+      margin:10% 8%;  
+  }
+
+  .sobre h2{
+      font-size: 2em;
+      font-weight: 600;
+      margin-bottom: 15px;
+  }
+
+  .compromisso{
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+  }
+
+  .gasto, .prod{
+      margin-top: 5%;
+      padding: 10%;
+  }
+
+  /* ESTILIZAÇÃO FOOTER */
+  footer{
+      padding: 8%;
+      justify-content: center;
+  }
+
+  footer .categorias{
+      display: none;
+  }
+
+  footer > .sociais, .menu-f{
+      width: 50%;
+  }
+
+  footer h2{
+      font-size: 1.1em;
+  }
+
+  footer img{
+      width: 10%;
+  }
 }
