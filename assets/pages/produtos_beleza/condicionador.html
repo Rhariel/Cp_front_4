@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/paginas.css">
+  <link rel="stylesheet" href="../../css/paginas.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <!-- Imagem Logo -->
-        <img class="navbar-brand" src="/assets/icons/logo_eco_3.svg" alt="Logo EcoTrend"/>
+        <img class="navbar-brand" src="../../icons/logo_eco_3.svg" alt="Logo EcoTrend"/>
         <!-- Menu Responsivo -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,20 +24,20 @@
         <!-- Páginas Menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="/index.html">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../../../index.html">Home</a> </li>
             <!-- Submenu Produtos -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Produtos
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/assets/pages/produtos_para_casa.html">Produtos para Casa</a></li>
-                <li><a class="dropdown-item" href="/assets/pages/produtos_beleza.html">Produtos Beleza</a></li>
-                <li><a class="dropdown-item" href="/assets/pages/produtos_roupa.html">Roupas e Acessórios</a></li>
+                <li><a class="dropdown-item" href="../produtos_para_casa.html">Produtos para Casa</a></li>
+                <li><a class="dropdown-item" href="../produtos_beleza.html">Produtos Beleza</a></li>
+                <li><a class="dropdown-item" href="../produtos_roupa.html">Roupas e Acessórios</a></li>
               </ul>
             </li>
-            <li class="nav-item"> <a class="nav-link" href="/assets/pages/tecnologia.html">Tecnologia</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="/assets/pages/sobre.html">Sobre</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="../tecnologia.html">Tecnologia</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="../sobre.html">Sobre</a> </li>
           </ul>
         </div>
         <!-- Funções Menu -->
@@ -56,13 +56,14 @@
       </div>
     </nav>
   </header>
+  
   <main class="container my-5">
     <h2 class="text-center mb-4">Detalhes do Produto</h2>
     
     <div class="row">
       <!-- Detalhes do Produto -->
       <div class="col-md-6">
-        <img src="/assets/img/produtosbeleza/produtos2.png" class="img-fluid" alt="condicionador">
+        <img src="../../img/produtosbeleza/produtos2.png" class="img-fluid" alt="condicionador">
       </div>
       
       <div class="col-md-6">
@@ -75,19 +76,33 @@
       </div>
     </div>
   </main>
+
   <!-- FOOTER -->
-      <footer>
-    <div class="footer-container">
-      <!-- Logo e sociais -->
-      <div class="footer-logo">
-        <img src="/assets/icons/logo_eco_3.svg" alt="Logo EcoTrend" class="footer-brand">
-        <div class="social-icons">
-          <a href="#"><img src="/assets/icons/ic_baseline_facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="/assets/icons/ic_baseline_tiktok.png" alt="TikTok"></a>
-          <a href="#"><img src="/assets/icons/jam_instagram.png" alt="Instagram"></a>
-          <a href="#"><img src="/assets/icons/vector.png" alt="LinkedIn"></a>
-        </div>
+  <footer>
+    <div class="sociais">
+      <h2>Siga Nossas Redes</h2>  
+      <div class="icones f">
+        <img src="../../icons/ic_baseline_facebook.png" alt="">
+        <img src="../../icons/ic_baseline_tiktok.png" alt="">
+        <img src="../../icons/jam_instagram.png" alt="">
+        <img src="../../icons/vector.png" alt="">
       </div>
+    </div>
+    <div class="menu-f">
+      <h2>Menu</h2>
+      <a href="../../../index.html">Home</a>
+      <a href="../produtos_beleza.html">Produtos</a>
+      <a href="../tecnologia.html">Nossa Tecnologia</a>
+      <a href="../sobre.html">Sobre</a>
+    </div>
+    <div class="categorias">
+      <h2>Categorias</h2>
+      <a href="../produtos_para_casa.html">Produtos para casa</a>
+      <a href="../produtos_beleza.html">Produtos Pessoais</a>
+      <a href="../produtos_roupa.html">Roupas e Acessórios</a>
+      <a href="../sobre.html">Nossa Tecnologia</a>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
