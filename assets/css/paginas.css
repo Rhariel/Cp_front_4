@@ -9,7 +9,7 @@ body{
    
 }
 header{
-    margin: 0 15%
+    margin: 0 15%;
 }
 
 .navbar, .bg-body-tertiary{
@@ -47,7 +47,7 @@ header{
 .navbar-nav{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .container-fluid > img{
@@ -347,6 +347,13 @@ footer .categorias{
   object-fit: fill;
 }
 
+/* FORMULARIO */
+.form_main{
+  margin:5% 20%;
+  align-items: center;
+  justify-content: center;
+}
+
 /* RESPONSIVO */
 
 @media (max-width: 990px){
@@ -431,6 +438,10 @@ footer .categorias{
     align-items: center;
     gap: 5%;
     margin-top: 20px;
+  }
+
+  .form_main{
+    margin:5% 10%;
   }
 
 }

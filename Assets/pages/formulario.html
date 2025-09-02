@@ -4,15 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoTrend</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"crossorigin="anonymous"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="..\css\paginas.css">
+  <link rel="stylesheet" href="../css/paginas.css">
 </head>
 
 <body>
-<header>
+  <!-- Menu -->
+    <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <!-- Imagem Logo -->
@@ -57,108 +58,28 @@
         </div>
       </nav>
     </header>
-  <main>
-    <!-- PRODUTOS -->
-    <section class="produtos container my-5">
-      <h2 class="mb-4">Produtos Ecológicos</h2>
-      <!-- Linha 1: roupas -->
-      <h3 class="mb-3">Roupas</h3>
-      <div class="row g-4 mb-5">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/fleece_better_sweater.png" class="card-img-top" alt="jaqueta">
-            <div class="card-body">
-              <h4>Material reciclado e organico</h4>
-              <h5 class="card-title">jaqueta</h5>
-              <p class="card-text">R$ 80,00</p>
-              <a href="./produtos_roupa/jaqueta.html" class="btn btn-primary mt-auto">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/colete.png" class="card-img-top" alt="colete">
-            <div class="card-body">
-              <h4>Material reciclado e organico</h4>
-              <h5 class="card-title">Colete</h5>
-              <p class="card-text">R$ 60,00</p>
-              <a href="./produtos_roupa/colete.html" class="btn btn-primary mt-auto">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/moletom.png" class="card-img-top" alt="moletom">
-            <div class="card-body">
-              <h4>Material reciclado e organico</h4>
-              <h5 class="card-title">Moletom</h5>
-              <p class="card-text">R$ 90,00</p>
-              <a href="#" class="btn btn-primary mt-auto">Comprar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/calça_moletom.png" class="card-img-top" alt="calça moletom">
-            <div class="card-body">
-              <h4>Material reciclado e organico</h4>
-              <h5 class="card-title">Calça Moletom</h5>
-              <p class="card-text">R$ 80,00</p>
-              <a href="#" class="btn btn-primary mt-auto">Comprar</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Linha 2: acessorios -->
-      <h3 class="mb-3">Acessórios</h3>
-      <div class="row g-4 mb-5">
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/bolsa_sintetica.png" class="card-img-top" alt="bolsa">
-            <div class="card-body">
-              <h4>Material Sintético</h4>
-              <h5 class="card-title">Bolsa de couro Sintético</h5>
-              <p class="card-text">R$ 100,00</p>
-              <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+    <main  class="form_main">
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escreva seu nome:">
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/carteira.png" class="card-img-top" alt="carteira">
-            <div class="card-body">
-              <h4>Material Sintético</h4>
-              <h5 class="card-title">Carteira de Couro Sintético</h5>
-              <p class="card-text">R$ 40,00</p>
-              <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/embalagem_biodegradavel.png" class="card-img-top" alt="embalagem">
-            <div class="card-body">
-              <h4>Biodegradavel</h4>
-              <h5 class="card-title">Embalagem Biodegradavel</h5>
-              <p class="card-text">R$ 10,00</p>
-              <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Assunto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escreva seu assunto:">
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img src="../img/roupa_imagens/suporte.png" class="card-img-top" alt="suporte">
-            <div class="card-body">
-              <h4>Material Sintético</h4>
-              <h5 class="card-title">Suporte de Mesa</h5>
-              <p class="card-text">R$ 15,00</p>
-              <a href="#" class="btn btn-primary mt-auto">Comprar</a>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-          </div>
-        </div>
-      </div>
-  </main>
+        </form>
+    </main>
+ 
   <!-- FOOTER -->
   <footer>
     <div class="sociais">
@@ -187,5 +108,6 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>
